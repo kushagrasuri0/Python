@@ -2,10 +2,10 @@ print("Name: Kushagra Suri")
 print("USN: 1AY24AI058")
 print("Section: M")
 import random
-flips = int(input("Enter the number of coin flips: "))
+flips = int(input("Enter coin flips: "))
 results = []
 streak = 0
-max_streak = 0
+maximum = 0
 for _ in range(flips):
     flip = random.choice(['H', 'T'])
     results.append(flip)
@@ -13,7 +13,7 @@ for _ in range(flips):
         streak += 1
     else:
         streak = 1
-    if streak > max_streak:
-        max_streak = streak
+    if streak > maximum:
+        maximum = streak
 print("Results:", results)
-print("Longest streak:", max_streak)
+print("Longest streak:", maximum)
