@@ -1,5 +1,5 @@
-print("Name: Anshikaa A Singh")
-print("USN: 1AY24AI011")
+print("Name: Kushagra Suri")
+print("USN: 1AY24AI058")
 print("Section: M")
 import os
 import random
